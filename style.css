@@ -19,3 +19,29 @@
 	--background: #121212;
 }
 
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+section {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 100px;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: normal;
+}
+
